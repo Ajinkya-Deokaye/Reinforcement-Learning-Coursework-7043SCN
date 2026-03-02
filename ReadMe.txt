@@ -180,7 +180,7 @@ Project Structure
  Coursework Information
 
 Module: Generative AI and Reinforcement Learning
-Project Type Type: Algorithm Comparison
+Project Type: Robustness And Generalisation 
 Focus: Empirical comparison of DQN and PPO
 
 ---
@@ -192,5 +192,6 @@ MSc Data Science & Computational Intelligence
 Coventry University
 
 ---
+
 
 
