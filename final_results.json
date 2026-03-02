@@ -1,0 +1,53 @@
+{
+  "student_id": "16743515",
+  "variant": 5,
+  "training_matches": 1000,
+  "eval_results": {
+    "DQN": {
+      "win_rate": 0.0,
+      "avg_rank": 3.965,
+      "avg_score": 20.805,
+      "std_rank": 0.1837797594948911,
+      "std_score": 2.792306394362911
+    },
+    "PPO": {
+      "win_rate": 0.99,
+      "avg_rank": 1.01,
+      "avg_score": 4.11,
+      "std_rank": 0.09949874371066199,
+      "std_score": 2.382834446620243
+    }
+  },
+  "dqn_config": {
+    "name": "DQN",
+    "obs_size": "405",
+    "action_size": "200",
+    "lr": "0.0001",
+    "gamma": "0.99",
+    "epsilon_start": "1.0",
+    "epsilon_end": "0.05",
+    "epsilon_decay_steps": "50000",
+    "batch_size": "64",
+    "replay_capacity": "50000",
+    "target_update_freq": "500",
+    "min_replay_size": "1000",
+    "log_dir": "results/dqn",
+    "seed": "42"
+  },
+  "ppo_config": {
+    "name": "PPO",
+    "obs_size": "405",
+    "action_size": "200",
+    "lr": "0.0003",
+    "gamma": "0.99",
+    "gae_lambda": "0.95",
+    "clip_epsilon": "0.2",
+    "entropy_coef": "0.01",
+    "value_loss_coef": "0.5",
+    "update_epochs": "4",
+    "mini_batch_size": "32",
+    "max_grad_norm": "0.5",
+    "log_dir": "results/ppo",
+    "seed": "42"
+  }
+}
