@@ -1,10 +1,6 @@
-Here is your updated **README.md** with the clarification about using the Chef’s Hat GYM simulator instead of the GitHub installation due to registry and connectivity issues.
+Important Note: The figures for results are given seperately in the repository for evaluation as they are automatically saved in Jupyter notebook while running the code.
 
-You can directly replace your current README with this:
-
----
-
-# 🧠 Reinforcement Learning: DQN vs PPO in Chef’s Hat Environment
+ Reinforcement Learning: DQN vs PPO in Chef’s Hat Environment
 
  Project Overview
 
@@ -36,8 +32,8 @@ This ensured stable execution, reproducibility, and consistent training without 
 
  Objectives
 
-* Implement **DQN** (value-based RL)
-* Implement **PPO** (policy-gradient RL)
+* Implement DQN (value-based RL)
+* Implement PPO (policy-gradient RL)
 * Train both agents under identical simulator conditions
 * Compare:
 
@@ -51,11 +47,11 @@ This ensured stable execution, reproducibility, and consistent training without 
 
 Environment Details
 
-* **Environment Type**: Chef’s Hat GYM Simulator
-* **Observation Space**: 405-dimensional vector
-* **Action Space**: Discrete
-* **Reward Type**: Sparse (based on finishing rank)
-* **Game Type**: Multi-agent competitive card game
+* Environment Type: Chef’s Hat GYM Simulator
+* Observation Space: 405-dimensional vector
+* Action Space: Discrete
+* Reward Type: Sparse (based on finishing rank)
+* Game Type: Multi-agent competitive card game
 
 ---
 
@@ -183,9 +179,9 @@ Project Structure
 
  Coursework Information
 
-**Module:** Generative AI and Reinforcement Learning
-**Assessment Type:** Algorithm Comparison
-**Focus:** Empirical comparison of DQN and PPO
+Module: Generative AI and Reinforcement Learning
+Project Type Type: Algorithm Comparison
+Focus: Empirical comparison of DQN and PPO
 
 ---
 
@@ -196,4 +192,5 @@ MSc Data Science & Computational Intelligence
 Coventry University
 
 ---
+
 
